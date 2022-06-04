@@ -1,0 +1,28 @@
+/*
+ * Главный файл стилей.
+ * Все паршалы подключаются сюда.
+ */
+
+@import './base/reset';
+@import './base/button';
+
+@import './base/hidden';
+
+@import './utils/vars';
+@import './utils/base';
+@import './body';
+@import './section';
+@import './container';
+@import './header';
+@import './hero';
+@import './products';
+@import './about';
+@import './advantages';
+@import './gallery';
+@import './reviews';
+@import './contacts';
+@import './footer';
+@import './mobile-menu';
+@import './modal';
+@import './modal-contacts';
+@import './modal-about';

@@ -1,0 +1,95 @@
+<div class="modal-backdrop is-hidden">
+  <div class="modal">
+    <button class="btn_close-modal" type="button">
+      <svg class="modal-close" width="40px" height="40px">
+        <use href="images/icons.svg#icon-close_40px"></use>
+      </svg>
+    </button>
+    <p class="modal_title">Your life's gonna get sweet!!!</p>
+    <p class="modal_sub-title">visit nearby store to retrive your order</p>
+    <form name="signup-form" class="signup-form" autocomplete="off">
+      <div class="signup-form_item">
+        <label class="signup_label">
+          <span class="signup_title">Your name</span>
+          <input
+            class="signup_input"
+            type="text"
+            name="name"
+            autofocus
+            placeholder="Chuck Rassel"
+          />
+        </label>
+      </div>
+      <div class="signup-form_item">
+        <label class="signup_label">
+          <span class="signup_title">Your email adress</span>
+          <input class="signup_input" type="email" name="email" placeholder="adress@mail.com" />
+        </label>
+      </div>
+      <div class="signup-form_item">
+        <p class="checkboxes_title">Products you want</p>
+        <div class="checkboxes">
+          <div class="checkboxes_item">
+            <label class="choose-form-label">
+              <input class="checkbox" type="checkbox" name="products" value="ice-cream" />
+              <span class="choose-form-title">Ice cream</span>
+              <span class="checkbox-icon"></span>
+            </label>
+            <label class="amount-label">
+              <input
+                class="amount-input"
+                type="number"
+                name="ice-cream-amount"
+                value="0"
+                max="10"
+              />
+            </label>
+          </div>
+          <div class="checkboxes_item">
+            <label class="choose-form-label">
+              <input class="checkbox" type="checkbox" name="products" value="ice coffee" />
+              <span class="choose-form-title">Ice coffee</span>
+              <span class="checkbox-icon"></span>
+            </label>
+            <label class="amount-label">
+              <input
+                class="amount-input"
+                type="number"
+                name="ice-coffee-amount"
+                value="0"
+                max="10"
+              />
+            </label>
+          </div>
+          <div class="checkboxes_item">
+            <label class="choose-form-label">
+              <input class="checkbox" type="checkbox" name="products" value="milkshake" />
+              <span class="choose-form-title">Milkshake</span>
+              <span class="checkbox-icon"></span>
+            </label>
+            <label class="amount-label">
+              <input
+                class="amount-input"
+                type="number"
+                name="milkshake-amount"
+                value="0"
+                max="10"
+              />
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="signup-form_item">
+        <label class="textarea-label">
+          <span class="textarea-title">Your <i>extra</i> wishes</span>
+          <textarea
+            class="textarea"
+            name="wishes"
+            placeholder="double chocolate, lactose free..."
+          ></textarea>
+        </label>
+      </div>
+      <button class="submit-btn" type="submit">Buy</button>
+    </form>
+  </div>
+</div>
