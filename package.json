@@ -3,10 +3,10 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://superbowl-alex.github.io/crew",
+  "homepage": "https://Nesterenko-Artem.github.io/Project--crew-",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /crew/"
+    "build": "parcel build src/*.html --public-url /Project--crew-/"
   },
   "repository": {
     "type": "git",
